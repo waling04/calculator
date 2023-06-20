@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>try me!</h1>
+    <div class="body">
+    <div class="calculator">
+      <div class="screen">
+        <div class="previous-screen" data-previous-operand></div>
+        <div class="current-screen" data-current-operand></div>
+      </div>
+      <div class="cal_row">
+        <button id="cal-row" data-clear>C</button>
+        <button id="cal-row" data-delete>DEL</button>
+        <button id="cal-row" data-operation>%</button>
+        <button id="cal-row" data-operation>÷</button>
+      </div>
+      <div class="cal_row">
+        <button id="cal-row" data-number>7</button>
+        <button id="cal-row" data-number>8</button>
+        <button id="cal-row" data-number>9</button>
+        <button id="cal-row" data-operation>x</button>
+      </div>
+      <div class="cal_row">
+        <button id="cal-row" data-number>4</button>
+        <button id="cal-row" data-number>5</button>
+        <button id="cal-row" data-number>6</button>
+        <button id="cal-row" data-operation>-</button>
+      </div>
+      <div class="cal_row">
+        <button id="cal-row" data-number>1</button>
+        <button id="cal-row" data-number>2</button>
+        <button id="cal-row" data-number>3</button>
+        <button id="cal-row" data-operation>+</button>
+      </div>
+      <div class="cal_row">
+        <button id="cal-rowr" data-number>0</button>
+        <button id="cal-row" data-number>.</button>
+        <button id="cal-row-double" data-equal>=</button>
+      </div>
+    </div>
+    </div>
+    <audio class="cal_row" src="/sound/el_interface_button_22_hpx.wav"></audio>
+    <script src="/script.js"></script>
+  </body>
+</html>
