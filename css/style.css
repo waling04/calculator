@@ -69,13 +69,21 @@ button {
     margin: 0.5px 0px;
     flex-basis: 24.5%;
     cursor: pointer;
+    box-shadow: 3px 4px rgb(67, 67, 114);
 }
 
 button:hover {
     background-color: wheat;
+    transform: translateY(2px);
+    box-shadow: none;
 }
 
 button#cal-row-double {
     flex-basis: 50%;
     background-color: rgb(201, 176, 187);
+}
+
+footer {
+    margin-bottom: px;
+    margin-top: 50px;
 }
